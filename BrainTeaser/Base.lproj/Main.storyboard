@@ -72,8 +72,8 @@
                                     <constraint firstAttribute="width" constant="191" id="wlI-34-z6w"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pC-wX-S0d">
-                                <rect key="frame" x="172" y="643" width="30" height="24"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pC-wX-S0d">
+                                <rect key="frame" x="172" y="642" width="30" height="25"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="11"/>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="About">
@@ -124,6 +124,10 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hWd-dM-reB">
                                 <rect key="frame" x="20" y="158" width="280" height="164"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="164" id="Amw-GK-Sa6"/>
+                                    <constraint firstAttribute="width" constant="280" id="YIW-im-7xd"/>
+                                </constraints>
                                 <string key="text">Images Attribution:
 Designed by Freepik
 http://www.freepik.com/free-photos-vectors/infographic
@@ -135,8 +139,8 @@ Facebook POP Framework used.
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1r3-rM-C3X">
-                                <rect key="frame" x="20" y="20" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1r3-rM-C3X">
+                                <rect key="frame" x="16" y="20" width="34" height="30"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -149,11 +153,9 @@ Facebook POP Framework used.
                         <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="1r3-rM-C3X" firstAttribute="top" secondItem="YaM-GB-P0y" secondAttribute="bottom" id="I6z-eZ-qap"/>
-                            <constraint firstItem="hWd-dM-reB" firstAttribute="leading" secondItem="ZZR-80-wSo" secondAttribute="leadingMargin" constant="4" id="Na7-Cv-O9o"/>
+                            <constraint firstItem="hWd-dM-reB" firstAttribute="centerY" secondItem="ZZR-80-wSo" secondAttribute="centerY" id="RHS-oz-zod"/>
+                            <constraint firstItem="hWd-dM-reB" firstAttribute="centerX" secondItem="ZZR-80-wSo" secondAttribute="centerX" id="RWy-Vw-ScE"/>
                             <constraint firstItem="1r3-rM-C3X" firstAttribute="leading" secondItem="ZZR-80-wSo" secondAttribute="leadingMargin" id="VNH-SN-jph"/>
-                            <constraint firstItem="hWd-dM-reB" firstAttribute="centerX" secondItem="ZZR-80-wSo" secondAttribute="centerX" id="bEJ-Rw-fAV"/>
-                            <constraint firstItem="hWd-dM-reB" firstAttribute="centerY" secondItem="ZZR-80-wSo" secondAttribute="centerY" id="cgH-qH-1Nh"/>
-                            <constraint firstItem="hWd-dM-reB" firstAttribute="top" secondItem="YaM-GB-P0y" secondAttribute="bottom" constant="138" id="zvG-ka-i3D"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
@@ -325,7 +327,7 @@ Facebook POP Framework used.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MQZ-Yp-Hgb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1018" y="422"/>
+            <point key="canvasLocation" x="760" y="403"/>
         </scene>
     </scenes>
     <resources>
